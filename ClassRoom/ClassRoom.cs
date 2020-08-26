@@ -10,8 +10,8 @@ namespace ClassRoom
     class ClassRoom
     {
         public string ClassName;
-        List<string> ClassList = new List<string>();
-        DateTime SemesterStart;
+        public List<Student> ClassList = new List<Student>();
+        public DateTime SemesterStart;
 
         public ClassRoom() { }
 
